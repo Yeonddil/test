@@ -1,0 +1,157 @@
+body{
+    position :absolute;
+    width : 1500px;
+
+    left : 50%;
+    transform :translate(-50%,  0%);
+
+    font-family: 'Gothic A1', sans-serif;
+
+    background-image :url("./9일차_영화/body_background.png");
+}
+
+.container{
+    display :flex;
+    flex-direction :column;
+
+}
+
+    .column1{
+        display : flex;
+        flex-direction :row;
+        flex :0.3;
+
+        margin-top :2rem;
+    }
+        .blank{
+            flex :1;
+        }
+
+        .spiderman_open{
+            flex :0.2;
+
+        }
+
+        .tunnel_open{
+            flex :0.2;
+
+        }
+
+        .ponyo_open{
+            flex :0.2;
+
+        }
+
+.movie_poster{
+
+    margin-left :0.7rem;
+    margin-right : 0.7rem;
+
+    border :1.5rem ridge rgb(36, 22, 8);
+
+    background-color :black;
+}
+    .movie_poster:active{
+        border :1.5rem ridge rgb(82, 47, 33);
+
+    }
+
+/*------------column2-----------------------------------------------*/
+.column2{
+    flex : 1;
+
+    margin : 5rem;
+
+    box-shadow : 20px 20px 15px rgb(49, 31, 25);
+
+    padding-top : 2rem;
+    padding-bottom :2rem;
+    padding-left : 5rem;
+    padding-right :5rem;
+
+    background-image :url("./9일차_영화/information_background.png");
+}
+
+.info_con{
+    display :flex;
+    flex-direction : row;
+
+}
+    .info_con_row1{
+        flex : 0.4;
+    }
+    .info_con_row2{
+        flex : 1;
+    }
+
+.mem_con{
+    display : flex;
+    flex-direction : row;
+
+}
+    .mem_con_row1{
+        flex : 0.3;
+    }
+    .mem_con_row2{
+        flex : 0.3;
+    }
+    .mem_con_row3{
+        flex : 0.3;
+    }
+
+figure a{
+    padding-left :0.5rem;
+}
+
+
+.center{
+    text-align :center;
+}
+
+.column2 > h1{
+    font-family: 'Black Han Sans', sans-serif;
+    font-weight :normal;
+    font-size :5rem;
+}
+
+.column2 ul li{
+    font-size :1.8rem;
+    font-weight :bolder;
+}
+
+.column2 figure h3{
+    font-size : 1.5rem;
+    font-weight :bold;
+}
+
+.column2 figure a{
+    font-size :1.1rem;
+}
+
+#movie-story{
+    font-family: 'Poor Story', cursive;
+    font-size :2rem;
+}
+
+#menu{
+    font-weight : bolder;
+
+    padding :2rem;
+    padding-left : 4rem;
+    background-image :url("./9일차_영화/information_background_clicked.png");
+
+    margin-right :80%;
+}
+
+ul#menu li{
+    font-size :1.2rem;
+
+    padding-top :0.2rem;
+    padding-bottom : 0.2rem;
+}
+
+.column2 u{
+    font-size :1.2rem;
+    display :block;
+    text-align :center;
+}
